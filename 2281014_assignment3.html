@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML Forms</title>
+</head>
+<body>
+    
+    <H1>Registration Form</H1>
+    <form action="process.php" method="get">
+        <fieldset style="color: black;">
+            <legend>Ini buat data diri kita bosku</legend>
+        <!--Input type text-->
+        <label for="fname">First Name: </label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname"> Last Name: </label><br>
+        <input type="number" id="lname" name="lname"><br><br>
+
+        <!--input type password-->
+
+        <label for="password">password: </label>    <br>
+        <input type="password" id="password" name="password">
+
+        <br><br>
+        <!-- select elements-->
+
+        <label for="religion">Choose your religion</label><br>
+        <select id="religion" name="religion" multiple>
+            <option value="Christian">Christian</option>
+            <option value="Moslem">Moslem</option>
+            <option value="Budhist">Budhist</option>
+            <option value="Hindu">Hindu</option>
+
+        </select>
+
+        <input type="time"
+
+        <br><br>
+        <!--Textarea element-->
+        <label for="comment">Write your comment below: </label><br>
+        <textarea name="comment" rows="10" cols="30"></textarea>
+
+
+        <br>
+        <!--input type radio-->
+        <p>Choose your Gender: </p>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender " value="female">
+        <label for="female">Female</label><br><br>
+
+  
+
+        <!--input type checkbox-->
+        <p>Choose your hobbies: </p>
+        <input type="checkbox" id="hobby1" name="hobby1" value="Badminton">
+        <label for="hobby1">Badminton</label><br>
+        <input type="checkbox" id="hobby2" name="hobby2" value="Futsal">
+        <label for="hobby2">Futsal</label><br>
+        <input type="checkbox" id="hobby3" name="hobby3" value="Football"
+        <label for="hobby3">Football</label><br>
+        <input type="checkbox" id="hobby4" name="hobby4" value="Basketball">
+        <label for="hobby4">Basketball</label>
+        
+    
+
+        <br><br>
+
+        <label for="warna">Pilih warna yang anda sukai: </label><br>
+        <input type="color" id="warna" name="warna" value="warna"><br><br>
+
+        <label for="tanggal">Masukan tanggal hari ini</label><br>
+        <input type="date" id="tanggal" name="tanggal" value="tanggal"><br><br>
+
+        <label for="jam">masukan tanggal dan jam hari ini</label><br>
+        <input type="datetime-local" name="datetime-local" id="datetime-local"><br><br>
+
+        <label for="email">Masukan email anda</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="file">Masukan file anda</label><br>
+        <input type="file" name="file" id="file"><br><br>
+
+        <label for="hidden">hidden</label><br>
+        <input type="hidden" name="hidden" id="name"><br><br>
+
+        <label for="image">Ini buat image</label><br>
+        <input type="image" src="/images/fotounai.jpg" alt="" height="200"><br><br>
+
+        <label for="bulan">ini untuk bulan</label><br>
+        <input type="month" id="bulan" name="bulan"><br><br>
+
+        <label for="angka">ini untuk angka</label><br><br>
+        <input type="number" id="angka" name="angka"><br>
+
+        <label for="range">ini untuk range</label><br><br>
+        <input type="range" id="range" name="range"><br>
+
+        <label for="search">ini untuk search</label><br><br>
+        <input type="search" id="cari" name="cari"><br>
+
+        <label for="tel">ini untuk tel</label><br><br>
+        <input type="tel" id="tel" name="tel"><br>
+
+        <label for="url">ini untu url</label><br><br>
+        <input type="url" id="link" name="link"><br>
+
+        <label for="week">ini untuk minggu</label><br><br>
+        <input type="week" id="minggu" name="minggu"><br>
+
+        <!--Input type submit-->
+        <input type="submit">
+
+        <!--input type reset-->
+        <input type="reset">
+    </fieldset>
+    </form>
+
+ 
+</body>
+</html>
